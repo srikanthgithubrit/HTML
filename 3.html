@@ -1,0 +1,80 @@
+<html>
+    <head>Creating Forms</head>
+    <style>
+        body{
+            
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+          margin: 0px;
+          background-color: aliceblue;
+        }
+        .div{
+background-color: grey;
+padding: 12px;
+        }
+        form{
+            border-radius: 5px;
+            padding: 12px;
+            margin: 12px;
+            box-shadow: yellow;
+            background-color: beige;
+        }
+        legend{
+            font-size: x-large;
+            font-family: 'Times New Roman', Times, serif;
+            color: burlywood;
+        }
+        input[type="Email"],
+        input[type="password"],
+        input[type="date"],
+        input[type="text"],
+        textarea{
+            padding: 5px;
+            margin-top: 10px;
+            border-radius: 1px;
+            text-shadow: 5px;
+            border-color: aliceblue;
+            margin-left: 10px;
+        }
+        input[type="radio"],
+        input[type="submit"]{
+            padding: 5px;
+            margin: 0px;
+        }
+    </style>
+    <body>
+        <div class="div">
+        <fieldset>
+            <legend>Personal Information</legend>
+            <form>
+            <label>Enter Your Name</label>
+            <input type="text" name="text"/><br>
+
+            <label>Enter Email</label>
+            <input type="text" name="text"/><br>
+
+            <label>Enter password</label>
+            <input type="password" name="password" id="password"/><br>
+
+            <label>Confirm password</label>
+            <input type="password" id="password" name="password"/><br>
+
+            <label>Enter Your Gender</label>
+            <input type="radio" name="Gender"/>Male</input>
+            <input type="radio" name="Gender"/>Female</input>
+            <input type="radio" name="Gender"/>Others</input><br><br>
+
+            <label>Enter DateOfBirth</label>
+            <input type="date" name="dob"/><br><br>
+
+            <textarea>Address</textarea><br><br>
+
+            <input type="submit" value="submit"/>
+            
+        </form>
+        </fieldset>
+    </diV>
+    </body>
+</html>
